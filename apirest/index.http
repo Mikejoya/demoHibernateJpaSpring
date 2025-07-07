@@ -1,0 +1,28 @@
+POST https://super-duper-space-doodle-wprg69p5ggjh96g7-8080.app.github.dev/products HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "no importa",
+    "price": 200.50
+}
+
+###
+GET https://super-duper-space-doodle-wprg69p5ggjh96g7-8080.app.github.dev/products HTTP/1.1
+Content-Type: application/json
+
+###
+GET https://super-duper-space-doodle-wprg69p5ggjh96g7-8080.app.github.dev/products/2 HTTP/1.1
+Content-Type: application/json
+
+###
+PUT https://super-duper-space-doodle-wprg69p5ggjh96g7-8080.app.github.dev/products/2 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Takis Fuego",
+    "price": 60.50
+}
+
+###
+DELETE https://super-duper-space-doodle-wprg69p5ggjh96g7-8080.app.github.dev/products/4 HTTP/1.1
+Content-Type: application/json
